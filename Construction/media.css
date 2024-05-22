@@ -1,0 +1,403 @@
+@media (min-width:300px) {
+  #row1{
+    display: none;
+  }  
+  #btn1{
+    display: none;
+  }
+  .nc1{
+    position: relative;
+    right: 25px;
+    background-color: #4C4C4C;
+  }
+  .nav1{
+    position: relative;
+    top: 50px;
+    left: 25px;
+    background-color: #4C4C4C;
+  }
+#b1{
+  width:auto;
+}
+  .img2-1{
+    width: 320px;
+  }
+  #h-1{
+    font-size: 40px;
+    font-weight: 800;
+}
+#h-2{
+    font-size: 40px;
+    font-weight: 800;
+    position: absolute;
+    right: -200px;
+}
+.hc1{
+    font-size: 12px;
+    font-weight: 800;
+    position: relative;
+    left: 10px;
+}
+#row3-1{
+  width: 50%;
+}
+.h3-2{
+  font-size: 40px;
+}
+.h2-1{
+  font-size: 40px;
+}
+.h2-3{
+  font-size: 50px;
+}
+.h3-6{
+  font-size: 10px;
+}
+.h4-3{
+  font-size: 50px;
+}
+.h4-1{
+  font-size: 40px;
+}
+.h5-3{
+  font-size: 50px;
+} 
+.h5-1{
+  font-size: 30px;
+  position: relative;
+  top: 50px;
+} 
+.p5-1{
+  position: relative;
+  top: 70px;
+} 
+#btn5-1{
+  position: relative;
+  top: 80px;
+}
+.col4-1{
+  width: 100%;
+  font-size: 10px;
+}
+.count{
+  font-size: 15px;
+}
+.item{
+  position: relative;
+  bottom: 80px;
+  right: 28px;
+}
+.item h3{
+  font-size: 10px;
+}
+.item p{
+  font-size: 7px;
+}
+.h6-1{
+  font-size: 40px;
+}
+.h6-3{
+  font-size: 50px;
+}
+#card6-1{
+  width: 100vw;
+}
+}
+@media (min-width:425px){
+  #c425-1{
+    display: none;
+  }
+}
+@media (min-width:720px) {
+    .nav1{
+        position: relative;
+        top: 50px;
+        background-color: #4C4C4C;
+    }
+    .nc1{
+        background-color: #4C4C4C;
+    }
+    .hc1{
+        font-size: 12px;
+        font-weight: 100;
+    }
+    #h-1{
+        font-size: 70px;
+        font-weight: 700;
+    }
+    #h-2{
+        font-size: 70px;
+        font-weight: 700;
+        position: absolute;
+        right: -200px;
+    }
+    .img2-1{
+      width: 337px;
+    }
+    #row3-1{
+      width: auto;
+    }
+    .h3-2{
+      font-size: 80px;
+    }
+    .h3-6{
+      font-size: 30px;
+    }
+    .h2-3{
+      font-size: 125px;
+    }
+    .h2-1{
+      font-size: 60px;
+    }
+    .h4-3{
+      font-size: 125px;
+    }
+    .h4-1{
+      font-size: 60px;
+    }
+    .h5-3{
+      font-size: 100px;
+    } 
+    .h5-1{
+      font-size: 60px;
+      position: relative;
+      top:10px;
+    }
+    #c425-1{
+      display: block;
+    }
+    .count{
+      font-size: 40px;
+    }
+    .item{
+      position: relative;
+      bottom: 50px;
+      right: 28px;
+    }
+    .item h3{
+      font-size: 25px;
+    }
+    .item p{
+      font-size: 12px;
+    }
+    .h6-3{
+      font-size: 125px;
+    }
+    .h6-1{
+      font-size: 60px;
+    }
+    #card6-1{
+      width: auto;
+    }
+}
+@media (min-width:1024px){
+    .nav1{
+        position: relative;
+        top: -30px;
+        background-color: transparent;
+    }
+    .hc1{
+        font-size: 18px;
+        font-weight: 100;
+    }
+    #h-1{
+        font-size: 100px;
+        font-weight: 700;
+    }
+    #h-2{
+        font-size: 100px;
+        font-weight: 700;
+        position: absolute;
+        right: -300px;
+    }
+    #row1{
+        display:block;
+        border: 3px solid orangered;
+        border-top: none;
+        background-color:  #27324acc;
+      }  
+      #btn1{
+        display:block;
+      }
+      .wq{
+        position: relative;
+        bottom: 60px;
+      }
+      .row1{
+        /* background-color:  #27324acc; */
+        position: relative;
+        bottom: 33px;
+        border: 3px solid orangered;
+        border-top: none;
+      }
+      .img2-1{
+        width: 295px;
+      }
+      .h2-1{
+        font-size: 60px;
+      }
+      #row3-1{
+        width: auto;
+      }
+      .h3-2{
+        font-size: 80px;
+      }
+      .h3-6{
+        font-size: 18px;
+      }
+      .h2-3{
+        font-size: 125px;
+      }
+      .h4-3{
+        font-size: 110px;
+      }
+      .h4-1{
+        font-size: 50px;
+      } 
+      .col4-1{
+        position: relative;
+        top:160px;
+    }
+    .h5-3{
+      font-size: 125px;
+    }
+    .h5-1{
+      font-size: 60px;
+      position: relative;
+      top: 10px;
+    }
+    #c425-1{
+      display: block;
+    }
+    .count{
+      font-size: 50px;
+    }
+    .item{
+      position: relative;
+      bottom: 50px;
+      right: 28px;
+    }
+    .item h3{
+      font-size: 35px;
+    }
+    .item p{
+      font-size: 18px;
+    }
+    .h6-3{
+      font-size: 125px;
+    }
+    .h6-1{
+      font-size: 60px;
+    }
+    #card6-1{
+      width: auto;
+    }
+}
+@media (min-width:1440px) {
+    .msub-1{
+        position: relative;
+        top: 200px;
+    }
+    .hc1{
+        font-size: 18px;
+        font-weight: 800;
+        position: relative;
+        left: 50px;
+    }
+    #h-1{
+        font-size: 125px;
+        font-weight: 700;
+        position: relative;
+        left: 10px;
+    }
+    #h-2{
+        font-size: 125px;
+        font-weight: 700;
+        position: absolute;
+        right: -200px;
+        top: 210px;
+    }
+    #row1{
+        display:block;
+        border: 3px solid orangered;
+        border-top: none;
+        z-index: 2;
+      }  
+      #btn1{
+        display:block;
+      }
+      .wq{
+        position: relative;
+        bottom: 60px;
+      }
+      .row1{
+        /* background-color:  #27324acc; */
+        position: relative;
+        bottom: 33px;
+        z-index: 0;
+        border: 3px solid orangered;
+        border-top: none;
+      }
+      .img2-1{
+        width: 416px;
+      }
+      .h2-1{
+        font-size: 60px;
+      }
+      #row3-1{
+        width: auto;
+      }
+      .h3-2{
+        font-size: 80px;
+      }
+      .h3-6{
+        font-size: 18px;
+      }
+      .h2-3{
+        font-size: 125px;
+      }
+      .h4-3{
+        font-size: 125px;
+      }
+      .h4-1{
+        font-size: 60px;
+      } 
+      .col4-1{
+        position: relative;
+        top:180px;
+    }
+    .h5-3{
+      font-size: 125px;
+    }
+    .h5-1{
+      font-size: 60px;
+      position: relative;
+      top: 10px;
+    }
+    #c425-1{
+      display: block;
+    }
+    .count{
+      font-size: 50px;
+    }
+    .item{
+      position: relative;
+      bottom: 50px;
+      right: 28px;
+    }
+    .item h3{
+      font-size: 35px;
+    }
+    .item p{
+      font-size: 18px;
+    }
+    .h6-3{
+      font-size: 125px;
+    }
+    .h6-1{
+      font-size: 60px;
+    }
+    #card6-1{
+      width: auto;
+    }
+}
