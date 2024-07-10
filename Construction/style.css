@@ -13,7 +13,6 @@
 }
 .nav1{
     position: relative;
-    /* top: 50px; */
     right: 0px;
 }
 
@@ -79,30 +78,17 @@
 }
 
 #h-1{
-    /* font-size: 125px; */
     color: #FF5F13;
-    /* font-weight: 700; */
 }
-
-
-
-
 .content {
     display: flex;
-	/* background: #07182853; */
-	/* height: auto; */
-	/* align-items: center; */
 	justify-content: flex-end;
 	position: relative;
-    /* left: 1%; */
     top:50x;
 }
 
 .content h1 {
-    /* background-color: #07182853 ; */
-	color: #fff;
-    /* height: 100%; */
-    /* width: 100%; */
+   	color: #fff;
 	font-size: 125px;
     font-weight: 700;
 	position: absolute;
@@ -154,8 +140,6 @@
 .hc1{
     text-transform: uppercase;
     color: white;
-    /* font-weight: 800;
-    font-size: 18px; */
 }
 .hc-1{
     color: #FF5F13;
@@ -170,13 +154,11 @@
 /* section  2 */
 
 .h2-1{
-    /* font-size: 60px; */
     font-weight: 800;
     font-family: sans-serif;
     
 }
 .img2-1{
-    /* width:416px ; */
     position: relative;
     right: 17px;
     top: 17px;
@@ -192,7 +174,7 @@
     }
     #img2{
         transform: scale(1.1);
-        transition: 0.9s ease-in-out;
+        transition:1.9s ease-in-out;
         transform-origin: center center;
         overflow: hidden;
     }
@@ -201,7 +183,6 @@
 .h2-3{
     color: transparent;
 	-webkit-text-stroke: 2px #F8F8FA;
-    /* font-size: 125px; */
     font-weight: 800;
     font-family: sans-serif;
     position: relative;
@@ -216,7 +197,6 @@
     width:100%;
 }
 .h3-2{
-    /* font-size: 80px; */
     font-weight: 800;
     font-family: sans-serif;
     
@@ -232,14 +212,12 @@
     left: 60px;
 }
 #row3-1{
-    /* border: 2px solid black; */
     position: relative;
     bottom: 182px;
     right: 5px;
     
 }
 #col-3{
-    /* border: 2px solid red; */
     background-color: #1F2B7B;
     color: white;
     padding-bottom: 30px;
@@ -256,7 +234,6 @@
 
 
 .h4-1{
-    /* font-size: 60px; */
     font-weight: 800;
     font-family: sans-serif;
     
@@ -264,7 +241,6 @@
 .h4-3{
     color: transparent;
 	-webkit-text-stroke: 2px #F8F8FA;
-    /* font-size: 125px; */
     font-weight: 800;
     font-family: sans-serif;
     position: relative;
@@ -282,10 +258,10 @@
 #card-4-1:hover{
     transition: 1.9s;
     background-color: #00235B;
+
     #card4-1{
         color: white;
-        /* transition: 1.9s; */
-    }
+        }
     .i4-1{
         background-color: #FF5F13;
         display:inline-block;
@@ -314,7 +290,6 @@
     width: 100vw;
 }
 .h5-1{
-    /* font-size: 70px; */
     font-weight: 800;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    color: white; 
@@ -322,7 +297,6 @@
 .h5-3{
     color: transparent;
 	-webkit-text-stroke: 2px #284372;
-    /* font-size: 125px; */
     font-weight: 800;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
@@ -366,18 +340,15 @@
     padding: 35px 40px;
     margin: 10px;
     text-align: center;
-    /* border: 2px solid ; */
   } 
   #counter .item .count{
     color: white;
     margin-bottom: 5px;
-    /* font-size: 50px; */
   }
   #counter .item h3{
     color: white;
     text-transform: capitalize;
-    /* font-size: 35px; */
-  }
+     }
   #counter .item p{
     color:white;
     text-transform: capitalize;
@@ -385,7 +356,6 @@
 
   /* section-----6 */
   .h6-1{
-    /* font-size: 60px; */
     font-weight: 800;
     font-family: sans-serif;
     
@@ -393,7 +363,6 @@
 .h6-3{
     color: transparent;
 	-webkit-text-stroke: 2px #F8F8FA;
-    /* font-size: 125px; */
     font-weight: 800;
     font-family: sans-serif;
     position: relative;
