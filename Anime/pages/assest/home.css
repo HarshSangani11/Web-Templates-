@@ -1,0 +1,767 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Navbar Styling */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+/* Navbar Links */
+.nav #nd2 a {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav #nd2 a:hover {
+    color: #ff6b6b;
+}
+
+/* Profile Section */
+.profile-dropdown {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.profile-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: transform 0.3s ease;
+}
+
+.profile-icon:hover {
+    transform: scale(1.1);
+}
+
+#Profile {
+    padding: 5px;
+    font-size: 14px;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#Profile:hover {
+    background-color: #444;
+}
+#nd3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav #nd3 i {
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.nav #nd3 i:hover {
+    color: #ff6b6b;
+}
+
+/* Menu Button */
+.menu-button {
+    display: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.menu-button.active {
+    transform: rotate(90deg);
+}
+
+/* Overlay for Mobile Navigation */
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    transition: opacity 0.3s ease;
+}
+
+/* Banner Section */
+.banner {
+    position: relative;
+    height: 80vh; /* Default height */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.content {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    max-width: 300px;
+}
+
+.content h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.content p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn-play {
+    background-color: red;
+    color: white;
+}
+
+.btn-play:hover {
+    background-color: darkred;
+}
+
+.btn-info {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+.btn-info:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.main2{
+    font-family: Arial, sans-serif;
+    background-color: #990000;
+    color: white;
+    padding: 20px;
+}
+.section {
+    margin-bottom: 30px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.section-header h2 {
+    font-size: 1.5em;
+}
+
+.section-header a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+}
+
+.section-header a::after {
+    content: '➔';
+    margin-left: 5px;
+}
+
+.card-container {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+}
+
+.card {
+    position: relative;
+    min-width: 200px;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+}
+
+.card-title {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.card-subtitle {
+    font-size: 0.8em;
+}
+
+/* Scrollbar for overflow */
+.card-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.card-container::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 10px;
+}
+
+/* Background images for each card */
+.card.attack-on-titan { background-image: url(/pages/images/anime-01.jpg); }
+.card.naruto { background-image: url(/pages/images/anime-02.jpg); }
+.card.my-hero-academia { background-image: url(/pages/images/anime-03.jpg); }
+.card.one-piece { background-image: url(/pages/images/anime-04.jpg); }
+.card.card.demon-slayer { background-image: url(/pages/images/anime-05.jpg); }
+.card.death-note { background-image: url(/pages/images/anime-06.jpg); }
+.card.fullmetal-alchemist { background-image: url(/pages/images/anime-07.jpg); }
+.card.sword-art-online { background-image: url(/pages/images/anime-08.jpg); }
+.card.tokyo-ghoul { background-image: url(/pages/images/anime-09.jpg); }
+.card.komitsu-uhang { background-image: url(/pages/images/anime-10.jpg); }
+.card.gun-gale { background-image: url(/pages/images/anime-11.jpg); }
+.card.demon-slayer2 { background-image: url(/pages/images/anime-12.jpg); }
+.card.demon-slayer3 { background-image: url(/pages/images/anime-13.jpg); }
+.card.fire-force { background-image: url(/pages/images/anime-14.jpg); }
+.card.fire-force2 { background-image: url(/pages/images/anime-15.jpg); }
+
+.container-1 {
+    position: relative;
+    width: 100%;
+    height: 500px; /* Set an explicit height */
+    background-image: url('/pages/images/banner.jpg'); /* Ensure the path is correct */
+    background-repeat: no-repeat;
+    background-size: cover; /* Use 'cover' if you want the image to fill the container */
+    color: white;
+}
+
+  .tags {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  .tag {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  .content {
+    position: absolute;
+    bottom: 20%;
+    left: 20px;
+  }
+  .title {
+    font-size: 48px;
+    margin: 0;
+    font-weight: bold;
+  }
+  .description {
+    font-size: 16px;
+    margin: 10px 0 20px;
+    max-width: 500px;
+  }
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  .button {
+    background-color: red;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .button.remind {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  .button .icon {
+    margin-right: 8px;
+  }
+.main-3{
+    font-family: Arial, sans-serif;
+    background-color: #400000;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.container-2 {
+    padding: 20px;
+}
+
+.container-2  h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+  .see-all {
+    font-size: 0.9rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.top-rated-content {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+}
+
+.card {
+    background-color: #500000;
+    border-radius: 10px;
+    width: 180px;
+    overflow: hidden;
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.info {
+    padding: 10px;
+}
+
+.info h3 {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.info p {
+    font-size: 0.9rem;
+    color: #bbbbbb;
+}
+
+.genres {
+    margin-top: 20px;
+}
+
+.genre-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 10px;
+}
+
+.genre {
+    background-color: #000;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    gap: 10px;
+}
+
+.icon {
+    font-size: 1.5rem;
+}
+.m-3{
+    font-family: Arial, sans-serif;
+    background-color: #400000;
+    color: white;
+    margin: 0;
+    padding: 0;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #000;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* Subscribe section styling */
+.subscribe-section {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.sub-heading {
+    color: #ff5656;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.subscribe-section h2 {
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.subscribe-form {
+    display: flex;
+    align-items: center;
+}
+
+.subscribe-form input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    font-size: 1rem;
+    outline: none;
+    width: 70%;
+}
+
+.subscribe-form button {
+    background: transparent;
+    border: none;
+    color: #ff5656;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Footer logo styling */
+.footer-logo {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-logo h3 {
+    font-size: 1.5rem;
+}
+
+.footer-logo h3 span {
+    color: #ff5656;
+}
+
+/* Footer links styling */
+.footer-links {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-links h4 {
+    font-size: 1.1rem;
+    color: #ff5656;
+}
+
+/* Footer contact styling */
+.footer-contact {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
+
+.social-icons span {
+    font-size: 1.5rem;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.ft{
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+/* Large Screens (1200px and above) */
+@media (min-width: 1200px) {
+    .nav #nd2 a {
+        font-size: 20px;
+    }
+
+    .nav #nd3 i {
+        font-size: 20px;
+    }
+
+    .profile-icon {
+        width: 35px;
+        height: 35px;
+    }
+
+    #Profile {
+        font-size: 16px;
+    }
+
+    .banner {
+        height: 90vh;
+    }
+
+    .content {
+        left: 100px;
+        bottom: 100px;
+    }
+
+    .content h2 {
+        font-size: 4em;
+    }
+
+    .content p {
+        font-size: 1.3em;
+    }
+
+    .btn {
+        padding: 14px 28px;
+        font-size: 1.2em;
+    }
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+    }
+    .card {
+        height: 180px;
+        font-size: 1.2em;
+    }
+    .title {
+        font-size: 56px;
+      }
+      .description {
+        font-size: 18px;
+      }
+      .button {
+        font-size: 18px;
+        padding: 12px 24px;
+      }
+      .tags {
+        top: 30px;
+        left: 30px;
+      }
+      .top-rated-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        width: 150px;
+    }
+    .genre-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-content {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .subscribe-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .footer-logo h3 {
+        font-size: 1.2rem;
+    }
+
+    .subscribe-form input {
+        width: 65%;
+    }
+}
+
+/* Mobile Screens (576px and below) */
+@media (max-width: 576px) {
+    /* Mobile Menu */
+    .menu-button {
+        display: block;
+        z-index: 2;
+    }
+
+    /* Mobile Overlay */
+    #overlay.show {
+        display: block;
+        opacity: 1;
+    }
+
+    /* Sidebar Menu */
+    .nav-links {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 70%;
+        background-color: #33333370;
+        flex-direction: column;
+        padding-top: 60px;
+        transition: transform 0.3s ease;
+        transform: translateX(100%);
+        z-index: 2;
+    }
+
+    .nav-links.open {
+        display: flex;
+        transform: translateX(0);
+    }
+
+    .nav-links a {
+        font-size: 18px;
+        margin: 15px 0;
+        color: white;
+        text-align: center;
+        transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+        color: #ff6b6b;
+    }
+
+    /* Mobile Banner */
+    .banner {
+        height: 70vh;
+    }
+
+    .content {
+        left: 20px;
+        bottom: 20px;
+        max-width: 80%;
+    }
+
+    .content h2 {
+        font-size: 2em;
+    }
+
+    .content p {
+        font-size: 0.9em;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .card {
+        height: 150px;
+        font-size: 1em;
+    }
+    .section-header h2 {
+        font-size: 1.5em;
+    }
+    .section-header a {
+        font-size: 1em;
+    }
+    .title {
+        font-size: 24px;
+      }
+      .description {
+        font-size: 14px;
+      }
+      .button {
+        font-size: 14px;
+        padding: 8px 16px;
+      }
+      .tags {
+        top: 10px;
+        left: 10px;
+      }
+      h2 {
+        font-size: 1.2rem;
+    }
+
+    .see-all {
+        font-size: 0.8rem;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .top-rated-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+   .genres h2 {
+        font-size: 1.2rem;
+    }
+
+    .genre-list {
+        grid-template-columns: 1fr;
+    }
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .subscribe-section h2 {
+        font-size: 1.3rem;
+    }
+
+    .subscribe-form input {
+        width: 80%;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-links div {
+        margin-bottom: 15px;
+    }
+
+    .footer-contact p {
+        font-size: 0.9rem;
+    }
+
+    .social-icons span {
+        font-size: 1.2rem;
+        margin: 0 3px;
+    }
+}

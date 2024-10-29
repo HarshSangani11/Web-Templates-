@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assest/home.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Tube</title>
+</head>
+<body>
+    <section>
+        <div class="main">
+          
+            <nav class="nav">
+                <div id="nd1">
+                    <img src="./images/logo.png" alt="Logo">
+                </div>
+                <div id="nd2" class="nav-links">
+                    <a href="#">Home</a>
+                    <a href="#">Anime</a>
+                    <a href="#">Movies</a>
+                    <a href="#">Manga</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Pages</a>
+                </div>
+                <div id="nd3">
+                    <i class="fa-solid fa-magnifying-glass"></i>                   
+                    <i class="fa-regular fa-bell"></i>
+                    <div class="profile-dropdown">
+                        <img src="./images/Ellipse-1.png" alt="Profile Icon" class="profile-icon">
+                        <select name="Profile" id="Profile">
+                            <option value="."></option>
+                            <option value="Profile">Profile</option>
+                            <option value="Email">Email</option>
+                            <option value="Setting">Setting</option>
+                            <option value="Logout">Logout</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- Menu Button -->
+                <div class="menu-button" onclick="toggleMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            
+            <!-- Overlay for mobile menu -->
+            <div id="overlay" onclick="toggleMenu()"></div>
+
+            <div class="banner">
+                <video autoplay loop muted playsinline>
+                    <source src="./images/hero_banner.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="content">
+                    <small>New Release</small>
+                    <h2>Naruto Clein</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur. Sed netus tortor hendrerit massa sem nunc nam odio. Orci posuere id donec.</p>
+                    <div class="buttons">
+                        <button class="btn btn-play">Play Now</button>
+                        <button class="btn btn-info">More Info</button>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+    <section>
+        <div class="main2">
+             <!-- Trending Shows Section -->
+    <div class="section">
+        <div class="section-header">
+            <h2>Trending Shows</h2>
+            <a href="#">See All</a>
+        </div>
+        <div class="card-container">
+            <div class="card attack-on-titan">
+                <div>
+                    <div class="card-title">Attack on Titan</div>
+                    <div class="card-subtitle">Action, Dark Fantasy</div>
+                </div>
+            </div>
+            <div class="card naruto">
+                <div>
+                    <div class="card-title">Naruto</div>
+                    <div class="card-subtitle">Action, Adventure</div>
+                </div>
+            </div>
+            <div class="card my-hero-academia">
+                <div>
+                    <div class="card-title">My Hero Academia</div>
+                    <div class="card-subtitle">Action, Superhero, Comedy</div>
+                </div>
+            </div>
+            <div class="card one-piece">
+                <div>
+                    <div class="card-title">One Piece</div>
+                    <div class="card-subtitle">Action, Adventure, Fantasy</div>
+                </div>
+            </div>
+            <div class="card demon-slayer">
+                <div>
+                    <div class="card-title">Demon Slayer</div>
+                    <div class="card-subtitle">Dark Fantasy,Supernatural</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- New Releases Section -->
+    <div class="section">
+        <div class="section-header">
+            <h2>New Releases</h2>
+            <a href="#">See All</a>
+        </div>
+        <div class="card-container">
+            <div class="card death-note">
+                <div>
+                    <div class="card-title">Death Note</div>
+                    <div class="card-subtitle">Mystery, Supernatural</div>
+                </div>
+            </div>
+            <div class="card fullmetal-alchemist">
+                <div>
+                    <div class="card-title">Fullmetal Alchemist</div>
+                    <div class="card-subtitle">Action, Adventure, Steampunk</div>
+                </div>
+            </div>
+            <div class="card sword-art-online">
+                <div>
+                    <div class="card-title">Sword Art Online</div>
+                    <div class="card-subtitle">Action, Adventure, Fantasy</div>
+                </div>
+            </div>
+            <div class="card tokyo-ghoul">
+                <div>
+                    <div class="card-title">Tokyo Ghoul</div>
+                    <div class="card-subtitle">Action, Horror, Supernatural</div>
+                </div>
+            </div>
+            <div class="card komitsu-uhang">
+                <div>
+                    <div class="card-title">Komitsu Uhang</div>
+                    <div class="card-subtitle">Anime, Vervex</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Top Picks Section -->
+    <div class="section">
+        <div class="section-header">
+            <h2>Top Picks According To Your Taste</h2>
+            <a href="#">See All</a>
+        </div>
+        <div class="card-container">
+            <div class="card gun-gale">
+                <div>
+                    <div class="card-title">Gun Gale</div>
+                    <div class="card-subtitle">Anime, Vervex</div>
+                </div>
+            </div>
+            <div class="card demon-slayer2">
+                <div>
+                    <div class="card-title">Demon Slayer</div>
+                    <div class="card-subtitle">Fire Force</div>
+                </div>
+            </div>
+            <div class="card demon-slayer3">
+                <div>
+                    <div class="card-title">Demon Slayer</div>
+                    <div class="card-subtitle">Fire Force</div>
+                </div>
+            </div>
+            <div class="card fire-force">
+                <div>
+                    <div class="card-title">Fire Force</div>
+                    <div class="card-subtitle">Fire Force</div>
+                </div>
+            </div>
+            <div class="card fire-force2">
+                <div>
+                    <div class="card-title">Fire Force</div>
+                    <div class="card-subtitle">Fire Force</div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-1">
+            <div class="tags">
+              <div class="tag">Drama</div>
+              <div class="tag">Thriller</div>
+              <div class="tag">Violence</div>
+            </div>
+            <div class="content">
+              <h1 class="title">Naruto Sans</h1>
+              <p class="description">Lorem ipsum dolor sit amet consectetur. Sed netus tortor hendrerit massa sem nunc nam odio. Orci posuere id donec.</p>
+              <div class="buttons">
+                <button class="button watch">
+                  <span class="icon">▶</span> Watch Trailer
+                </button>
+                <button class="button remind">
+                  <span class="icon">🔔</span> Remind Me
+                </button>
+              </div>
+            </div>
+          </div>
+    </section>
+    <div class="main-3">
+    <div class="container-2">
+        <section class="top-rated">
+            <h2>Top Rated <a href="#" class="see-all">See All</a></h2>
+            <div class="card-container">
+                <div class="card death-note">
+                    <div>
+                        <div class="card-title">Death Note</div>
+                        <div class="card-subtitle">Mystery, Supernatural</div>
+                    </div>
+                </div>
+                <div class="card fullmetal-alchemist">
+                    <div>
+                        <div class="card-title">Fullmetal Alchemist</div>
+                        <div class="card-subtitle">Action, Adventure, Steampunk</div>
+                    </div>
+                </div>
+                <div class="card sword-art-online">
+                    <div>
+                        <div class="card-title">Sword Art Online</div>
+                        <div class="card-subtitle">Action, Adventure, Fantasy</div>
+                    </div>
+                </div>
+                <div class="card tokyo-ghoul">
+                    <div>
+                        <div class="card-title">Tokyo Ghoul</div>
+                        <div class="card-subtitle">Action, Horror, Supernatural</div>
+                    </div>
+                </div>
+                <div class="card komitsu-uhang">
+                    <div>
+                        <div class="card-title">Komitsu Uhang</div>
+                        <div class="card-subtitle">Anime, Vervex</div>
+                    </div>
+                </div>
+            </div>
+           
+        </section>
+        <div class="m-3">
+        <section class="genres">
+            <h2>Series Genres</h2>
+            <div class="genre-list">
+                <div class="genre">
+                    <span class="icon">🍿</span>
+                    Drama
+                </div>
+                <div class="genre">
+                    <span class="icon">🎥</span>
+                    Documentary
+                </div>
+                <div class="genre">
+                    <span class="icon">💥</span>
+                    Action
+                </div>
+                <div class="genre">
+                    <span class="icon">💰</span>
+                    Grand Theft
+                </div>
+                <div class="genre">
+                    <span class="icon">💣</span>
+                    Bomb & Crime
+                </div>
+                <div class="genre">
+                    <span class="icon">🔫</span>
+                    Crime Thriller
+                </div>
+                <div class="genre">
+                    <span class="icon">🚗</span>
+                    Car Racing
+                </div>
+                <div class="genre">
+                    <span class="icon">🔆</span>
+                    Drama
+                </div>
+            </div>
+        </section>
+    </div>
+    </div>
+    <div class="ft">
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="subscribe-section">
+                <p class="sub-heading">Start Your Entertainment Journey</p>
+                <h2>Start Your Entertainment Journey</h2>
+                <div class="subscribe-form">
+                    <input type="email" placeholder="Your Email">
+                    <button type="submit">&#x27A1;</button>
+                </div>
+            </div>
+            <div class="footer-logo">
+                <img src="./images/pngwing.com1.png" alt="Anime Tube Logo">
+                <h3>Anime <span>Tube</span></h3>
+                <p>Lorem ipsum dolor sit amet consectetur. Magna at in nunc viverra. Felis nascetur nulla at viverra egestas.</p>
+            </div>
+            <div class="footer-links">
+                <div>
+                    <h4>Home</h4>
+                    <p>Anime</p>
+                    <p>Movies</p>
+                    <p>Blog</p>
+                </div>
+                <div>
+                    <h4>Terms and Conditions</h4>
+                    <p>Privacy Policy</p>
+                    <p>Cookie Policy</p>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <p>Have a Chat!</p>
+                <p>abc@example.com</p>
+                <p>Follow Us</p>
+                <div class="social-icons">
+                    <span>📘</span>
+                    <span>📷</span>
+                    <span>✉️</span>
+                    <span>🎥</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+<script>
+  
+    function toggleMenu() {
+    const navLinks = document.getElementById("nd2");
+    const overlay = document.getElementById("overlay");
+    const menuButton = document.querySelector(".menu-button");
+
+    navLinks.classList.toggle("open");
+    overlay.classList.toggle("show");
+    menuButton.classList.toggle("active"); // Rotate menu button on toggle
+}
+
+
+
+
+</script>
+</html>
