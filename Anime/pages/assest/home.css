@@ -1,11 +1,11 @@
-/* Global Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Main Navbar Styling */
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -14,7 +14,6 @@
     background-color: #333;
 }
 
-/* Navbar Links */
 .nav #nd2 a {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -27,7 +26,6 @@
     color: #ff6b6b;
 }
 
-/* Profile Section */
 .profile-dropdown {
     display: flex;
     align-items: center;
@@ -75,7 +73,6 @@
     color: #ff6b6b;
 }
 
-/* Menu Button */
 .menu-button {
     display: none;
     font-size: 24px;
@@ -88,7 +85,7 @@
     transform: rotate(90deg);
 }
 
-/* Overlay for Mobile Navigation */
+
 #overlay {
     display: none;
     position: fixed;
@@ -101,10 +98,10 @@
     transition: opacity 0.3s ease;
 }
 
-/* Banner Section */
+
 .banner {
     position: relative;
-    height: 80vh; /* Default height */
+    height: 80vh;
     color: white;
     display: flex;
     align-items: center;
@@ -229,7 +226,7 @@ h2 {
     font-size: 0.8em;
 }
 
-/* Scrollbar for overflow */
+
 .card-container::-webkit-scrollbar {
     height: 8px;
 }
@@ -239,7 +236,6 @@ h2 {
     border-radius: 10px;
 }
 
-/* Background images for each card */
 .card.attack-on-titan { background-image: url(/pages/images/anime-01.jpg); }
 .card.naruto { background-image: url(/pages/images/anime-02.jpg); }
 .card.my-hero-academia { background-image: url(/pages/images/anime-03.jpg); }
@@ -259,10 +255,10 @@ h2 {
 .container-1 {
     position: relative;
     width: 100%;
-    height: 500px; /* Set an explicit height */
-    background-image: url('/pages/images/banner.jpg'); /* Ensure the path is correct */
+    height: 500px; 
+    background-image: url('/pages/images/banner.jpg'); 
     background-repeat: no-repeat;
-    background-size: cover; /* Use 'cover' if you want the image to fill the container */
+    background-size: cover;
     color: white;
 }
 
@@ -423,7 +419,7 @@ h2 {
     justify-content: space-between;
 }
 
-/* Subscribe section styling */
+
 .subscribe-section {
     flex: 1;
     min-width: 250px;
@@ -466,7 +462,7 @@ h2 {
     cursor: pointer;
 }
 
-/* Footer logo styling */
+
 .footer-logo {
     flex: 1;
     text-align: center;
@@ -481,7 +477,7 @@ h2 {
     color: #ff5656;
 }
 
-/* Footer links styling */
+
 .footer-links {
     display: flex;
     flex: 1;
@@ -495,7 +491,6 @@ h2 {
     color: #ff5656;
 }
 
-/* Footer contact styling */
 .footer-contact {
     flex: 1;
     text-align: center;
@@ -517,7 +512,7 @@ h2 {
     margin: 0;
     padding: 0;
 }
-/* Large Screens (1200px and above) */
+
 @media (min-width: 1200px) {
     .nav #nd2 a {
         font-size: 20px;
@@ -610,21 +605,21 @@ h2 {
     }
 }
 
-/* Mobile Screens (576px and below) */
+
 @media (max-width: 576px) {
-    /* Mobile Menu */
+    
     .menu-button {
         display: block;
         z-index: 2;
     }
 
-    /* Mobile Overlay */
+ 
     #overlay.show {
         display: block;
         opacity: 1;
     }
 
-    /* Sidebar Menu */
+    
     .nav-links {
         display: none;
         position: fixed;
@@ -657,7 +652,7 @@ h2 {
         color: #ff6b6b;
     }
 
-    /* Mobile Banner */
+ 
     .banner {
         height: 70vh;
     }
